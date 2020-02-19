@@ -1,6 +1,6 @@
 html {
   font-size: 100%;
-  background: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg);
 }
 
 body {
@@ -12,13 +12,12 @@ body {
 h1 {
   text-indent: 1.5em;
   text-align: center;
-  color: white;
+  color: #460010 ;
   font-family: "Lato", sans-serif;
   font-size: 36px;
 }
 
 #navbar {
-  background-color: silver;
   position: relative;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -29,7 +28,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background: url(https://cdn.pixabay.com/photo/2017/02/14/09/02/wood-2065366_1280.jpg);
 }
 
 nav li {
@@ -54,7 +53,7 @@ p {
   text-align: start;
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
-  color: whitesmoke;
+  color: #130105;
   display: flex; /* or inline-flex */
   flex-direction: column;
   padding-top: 50px;
