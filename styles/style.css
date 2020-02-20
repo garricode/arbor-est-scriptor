@@ -77,24 +77,30 @@ h2 {
   margin: auto;
 }
 
-.medium-image {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 50%;
+/** Here start the image of John Doe **/
+
+.John-Doe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* Add rounded corners to the top left and the top right corner of the image */
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.thin-darker-border {
-  border-color: #210b01;
-  border-width: 5px;
-  border-style: solid;
-  border-radius: 2.5%;
-}
+/** The Box for the books tittles start here**/
 
 .box {
-  background-color: seashell;
-  color: #130105;
-  border-radius: 5px;
+  /** Use this instead the background's url() property if change mind, seashell; **/
+
+  background: url(https://images.unsplash.com/photo-1528459105426-b9548367069b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=614&q=80);
+  color: seashell;
+  border-radius: 25px;
+  border-width: medium;
+  border-style: outset;
+  border-color: #210b01;
   font-family: "Lato", sans-serif;
   font-size: 20px;
   text-align: center;
@@ -105,8 +111,8 @@ h2 {
 }
 
 .box:nth-child(even) {
-  background-color: seashell;
-  color: #130105;
+  /**This , background-color: seashell; , just use if changes mind about background's url() **/
+  color: seashell;
   font-family: "Lato", sans-serif;
   text-align: center;
 }
