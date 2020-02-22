@@ -110,6 +110,10 @@ h2 {
   margin: 10px;
 }
 
+.box:hover {
+  transform: scale(1.1);
+}
+
 .box:nth-child(even) {
   /**This , background-color: seashell; , just use if changes mind about background's url() **/
   color: seashell;
